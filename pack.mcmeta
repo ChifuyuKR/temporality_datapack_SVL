@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": [
+      { "text": "Temporality", "color": "aqua", "bold": true },
+      { "text": " - SVL par Chifuyu", "color": "gray" }
+    ],
+    "min_format": [94, 1],
+    "max_format": [94, 1]
+  }
+}

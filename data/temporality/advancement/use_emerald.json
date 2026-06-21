@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:emerald"],
+          "predicates": {
+            "minecraft:custom_data": "{temporality:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "temporality:teleport/use_emerald"
+  }
+}

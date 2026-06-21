@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:diamond"],
+          "predicates": {
+            "minecraft:custom_data": "{temporality:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "temporality:teleport/use_diamond"
+  }
+}
