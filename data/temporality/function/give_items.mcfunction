@@ -12,13 +12,13 @@
 # ============================================================
 
 # --- Lingot de fer => voyage vers le PASSE ---
-give @s minecraft:iron_ingot[minecraft:custom_data={temporality:1b},minecraft:item_name='[{"text":"Lingot du Passe","color":"gray","italic":false}]',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
+give @s minecraft:iron_ingot[minecraft:custom_data={temporality:1b},minecraft:custom_name='{"text":"Lingot du Passe","color":"gray","italic":false}',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
 
 # --- Emeraude => voyage vers le PRESENT ---
-give @s minecraft:emerald[minecraft:custom_data={temporality:1b},minecraft:item_name='[{"text":"Emeraude du Present","color":"green","italic":false}]',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
+give @s minecraft:emerald[minecraft:custom_data={temporality:1b},minecraft:custom_name='{"text":"Emeraude du Present","color":"green","italic":false}',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
 
 # --- Diamant => voyage vers le FUTUR ---
-give @s minecraft:diamond[minecraft:custom_data={temporality:1b},minecraft:item_name='[{"text":"Diamant du Futur","color":"aqua","italic":false}]',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
+give @s minecraft:diamond[minecraft:custom_data={temporality:1b},minecraft:custom_name='{"text":"Diamant du Futur","color":"aqua","italic":false}',minecraft:consumable={consume_seconds:0.05,animation:"none",has_consume_particles:false,sound:"intentionally_empty"}] 1
 
 # Initialise la dimension du joueur sur Present par defaut.
 execute unless score @s temporality.dim matches 0..2 run scoreboard players set @s temporality.dim 1
