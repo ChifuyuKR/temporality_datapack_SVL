@@ -1,8 +1,8 @@
 # ============================================================
 #  Temporality - Feedback : destination occupee
-#  La case des pieds ou de la tete n'est pas libre.
+#  Le bloc de la tete du joueur n'est pas libre.
 # ============================================================
 
-title @s actionbar [{"text":"\u2717 Destination occupee : espace insuffisant","color":"red","bold":true}]
-tellraw @s [{"text":"[","color":"dark_gray"},{"text":"Temporality","color":"aqua","bold":true},{"text":"] ","color":"dark_gray"},{"text":"La destination est occupee. Liberez l'espace autour du point d'arrivee avant de voyager.","color":"red"}]
+title @s actionbar [{"text":"\u2717 Destination occupée : bloc de la tête occupé","color":"red","bold":true}]
+tellraw @s ["",{color:"dark_gray",bold:true,text:"["},{color:"#ffffff",text:"T"},{color:"#def3e5",text:"e"},{color:"#bee7ca",text:"m"},{color:"#9ddcb0",text:"p"},{color:"#7dd095",text:"o"},{color:"#5cc47b",text:"r"},{color:"#54c68d",text:"a"},{color:"#4cc89f",text:"l"},{color:"#45cab2",text:"i"},{color:"#3dccc4",text:"t"},{color:"#35ced6",text:"y"},{color:"dark_gray",bold:true,text:"] "},{color:"red",text:"✗ Le bloc de la tête à l'arrivée est occupé. Déplace-toi ailleurs."}]
 playsound minecraft:block.note_block.bass master @s ~ ~ ~ 1 0.8

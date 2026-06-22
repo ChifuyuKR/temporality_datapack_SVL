@@ -17,5 +17,5 @@ scoreboard players operation @s temporality.cd_disp /= #20 temporality.const
 execute if score @s temporality.cd matches 1.. run title @s actionbar [{"text":"\u231b Voyage temporel disponible dans ","color":"red"},{"score":{"name":"@s","objective":"temporality.cd_disp"},"color":"yellow","bold":true},{"text":" s","color":"yellow"}]
 
 # Quand le cooldown vient d'atteindre 0, signale que le voyage est pret.
-execute if score @s temporality.cd matches 0 run title @s actionbar [{"text":"\u2726 Voyage temporel pret !","color":"green","bold":true}]
+execute if score @s temporality.cd matches 0 run title @s actionbar [{"text":"\u2726 Voyage temporel prêt !","color":"green","bold":true}]
 execute if score @s temporality.cd matches 0 run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 1 1.5

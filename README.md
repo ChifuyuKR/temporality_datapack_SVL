@@ -36,10 +36,7 @@ Les items vanilla (lingot de fer, émeraude, diamant) ne sont pas « utilisables
 un clic droit ne déclenche normalement rien. Le datapack ajoute donc le composant
 `minecraft:consumable` (durée quasi nulle, sans son ni particule) aux items distribués
 par `give_items`. Le clic droit devient ainsi détectable via l'advancement
-`minecraft:consume_item`, et l'item consommé est immédiatement rendu au joueur.
-
-> Conséquence : seuls les items distribués par `temporality:give_items` déclenchent
-> la téléportation (les lingots/émeraudes/diamants ordinaires ne sont pas affectés).
+`minecraft:consume_item`
 
 ## Structure des fonctions
 - `temporality:load` — initialise les scoreboards (tag `minecraft:load`)
