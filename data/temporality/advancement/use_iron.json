@@ -5,8 +5,10 @@
       "conditions": {
         "item": {
           "items": ["minecraft:iron_ingot"],
-          "predicates": {
-            "minecraft:custom_data": "{temporality:1b}"
+          "components": {
+            "minecraft:custom_data": {
+              "temporality": true
+            }
           }
         }
       }
