@@ -1,1 +1,2 @@
-scoreboard objectives setdisplay sidebar temporality.cd_disp
+# DEBUG ON/OFF
+# scoreboard objectives setdisplay sidebar temporality.dim

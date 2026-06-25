@@ -6,6 +6,7 @@
 # --- Dimension temporelle actuelle du joueur ---
 #  0 = Passe, 1 = Present, 2 = Futur
 scoreboard objectives add temporality.dim dummy
+scoreboard players set @a temporality.dim 1
 
 # --- Dimension cible (definie par l'item utilise) ---
 #  0 = Passe (lingot de fer), 1 = Present (emeraude), 2 = Futur (diamant)
@@ -30,8 +31,6 @@ scoreboard objectives add temporality.tp_success dummy
 scoreboard objectives add temporality.const dummy
 scoreboard players set #20 temporality.const 20
 
-# --- Système de points XP ---
-scoreboard objectives add temporality.xp dummy "XP Points"
 
 # --- Combo timer (compte à rebours depuis Passé vers Présent) ---
 scoreboard objectives add temporality.combo_timer dummy
@@ -44,9 +43,3 @@ tellraw @a ["",{color:"dark_gray",bold:true,text:"["},{color:"#ffffff",text:"T"}
 
 # Configure les scoreboards pour l'affichage
 function temporality:setup_scoreboard
-
-# Donne le tag temporel à tous les joueurs
-tag @a add tempo_player
-
-# Donne les items temporels aux joueurs
-function temporality:give_items
