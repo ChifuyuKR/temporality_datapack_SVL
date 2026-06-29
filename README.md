@@ -1,4 +1,4 @@
-# Temporality — Datapack de voyage temporel (Minecraft 1.21.11) pour F4 S30 SVL
+# Temporality — Datapack (1.21.11) pour F4 S30 SVL
 
 Datapack pour un parcours basé sur le voyage dans le temps entre 3 versions
 alignées de la même map : **Passé** (gauche) — **Présent** (centre) — **Futur** (droite),
