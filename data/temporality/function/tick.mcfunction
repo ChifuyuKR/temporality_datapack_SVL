@@ -15,3 +15,12 @@ execute as @a[scores={temporality.giveall=1}] if score @s temporality.cd matches
 execute as @a[tag=needs_refill] run function temporality:inventory/refill
 execute as @a[tag=needs_refill] run tag @s remove needs_refill
 
+execute as @a[tag=tempo_player] if items entity @s hotbar.0 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.1 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.2 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.3 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.4 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.5 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.6 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.7 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe
+execute as @a[tag=tempo_player] if items entity @s hotbar.8 iron_pickaxe run function temporality:p1_pickaxe/replace_pickaxe

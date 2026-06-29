@@ -2,8 +2,6 @@
 # Mark teleportation as failure
 scoreboard players set @s temporality.tp_success 0
 
-say FORBIDDEN FUNCTION EXECUTED
-
 title @s times 10 70 20
 title @s title [{"text":"✗ Trajet impossible ✗","color":"dark_red","bold":true}]
 title @s subtitle [{"text":"Passez par le PRESENT","color":"red","bold":true}]

@@ -1,4 +1,4 @@
-# Feedback : destination obstruee
+# Feedback : destination obstruée
 # Marque la teleportation comme echec
 scoreboard players set @s temporality.tp_success 0
 

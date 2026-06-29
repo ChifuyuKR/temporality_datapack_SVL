@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "temporality:p1_pickaxe/craft_detection"
+  }
+}
